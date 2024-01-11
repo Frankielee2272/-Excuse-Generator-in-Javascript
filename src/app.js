@@ -2,7 +2,6 @@ import "./style.css";
 
 import "./assets/img/4geeks.ico";
 window.onload = () => {
-  document.querySelector("#btn").addEventListener("click", () => {});
   document.querySelector("#the-excuse").innerHTML = generateExcuse();
 
   console.log("Hello! ");
